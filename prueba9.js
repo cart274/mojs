@@ -1,7 +1,7 @@
 'use strict';
 var _extends = Object.assign || function (target) {
     for (var i = 1; i < arguments.length; i++) {
-        if (window.CP.shouldStopExecution(2)) {
+        if (dust.shouldStopExecution(2)) {
             break;
         }
         var source = arguments[i];
